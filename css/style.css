@@ -1,0 +1,689 @@
+* {
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    font-size: 40px;
+    color: #333;
+}
+
+section {
+    margin-top: 65px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+/* Heading */
+
+.info {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    height: 100%;
+}
+
+.text_links {
+    margin-left: auto;
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.phone_number {
+    margin-left: 25px;
+    font-size: 22px;
+    color: #666;
+}
+
+.nav {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.nav_list {
+    display: flex;
+    background-color: transparent;
+}
+
+.nav_item {
+    margin-left: 21px;
+    background-color: transparent;
+}
+
+.nav_item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.search {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.nav_link {
+    font-size: 16;
+    color: #333;
+}
+
+.search_txt {
+    margin-right: 21px;
+    width: 335px;
+    height: 48px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.search_btn {
+    position: absolute;
+    margin-left: 302px;
+}
+
+/* Quick booking & special_offers */
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Quick booking */
+
+.quick_booking_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.quick_booking_item:not(:first-child) {
+    margin-top: 24px;
+}
+
+.quick_booking_input {
+    width: 518px;
+    height: 70px;
+    border-radius: 12px;
+    color: #999;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+}
+
+.btn {
+    width: 159px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #cc9933;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.number_of_rooms {
+    margin-left: 30px;
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.available_numbers{
+    font-size: 16px;
+    color: #999;
+}
+
+/* special_offers */
+
+.container_special_offers {
+    position: relative;
+    width: 100%;
+}
+
+.special_offers_img{
+    margin-top: 23px;
+}
+
+.section_lux_heading{
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    font-size: 55px;
+    color: #fff;
+    background-color: transparent;
+    width: 350px;
+}
+
+.special_offers_price{
+    position: absolute;
+    left: 40px;
+    top: 535px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+
+.special_offers_detailed {
+    position: absolute;
+    left: 235px;
+    top: 550px;
+    font-size: 16px;
+    color: #cc9933;
+    background-color: transparent;
+}
+
+/* About us */
+
+.about_us_text {
+    margin: 0;
+    padding: 0;
+    margin-top: 23px;
+    margin-left: 42px;
+    width: 880px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* services */
+
+.services_table_ul {
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+
+.services_table_li {
+    width: 572px;
+    height: 325px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.services_img {
+    background-color: transparent;
+    margin-bottom: 36px;;
+}
+
+.services_link {
+    margin-left: 45px;
+    font-size: 22px;
+    color: #cc9933;
+}
+
+.services_text {
+    margin-top: 23px;
+    margin-left: 45px;
+    font-size: 16px;
+    color: #333;
+    width: 384px;
+    background-color: transparent;
+}
+
+/* Benefits */
+
+.benefits_table_ul {
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+
+.benefits_table_li {
+    width: 275px;
+    height: 275px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.benefits_icon {
+    display: block;
+    margin-top: 41px;
+    margin-left: 42px;
+    height: 59px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-color: transparent;
+}
+
+.bathtub {
+    background-image: url("../img/bathtub.png");
+}
+
+.hanger {
+    background-image: url("../img/hanger.png");
+}
+
+.heating {
+    background-image: url("../img/heating.png");
+}
+
+.hotel-key {
+    background-image: url("../img/hotel-key.png");
+}
+
+.parking {
+    background-image: url("../img/parking.png");
+}
+
+.reception {
+    background-image: url("../img/reception.png");
+}
+
+.security-box {
+    background-image: url("../img/security-box.png");
+}
+
+.swimming-pool {
+    background-image: url("../img/swimming-pool.png");
+}
+
+.benefits_text {
+    margin-top: 20px;
+    margin-left: 42px;
+    width: 180px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+/* accommodation */
+
+.accommodation_table_ul {
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+
+.accommodation_table_li {
+    width: 373px;
+    height: 441px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.accommodation_price_box {
+    margin-top: 36px;
+    margin-left: 42px;
+    background-color: transparent;
+}
+
+.accommodation_text_1 {
+    font-size: 16px;
+    color: #969696;
+    background-color: transparent;
+}
+
+.accommodation_text_2 {
+    font-size: 22px;
+    color: #333;
+    background-color: transparent;
+}
+
+.accommodation_text_3 {
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.accommodation_hotel {
+    margin-top: 20px;
+    margin-left: 42px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.accommodation_coutry {
+    margin-top: 20px;
+    margin-left: 42px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #969696;
+    background-color: transparent;
+}
+
+.accommodation_btn {
+    margin-left: 42px;
+    width: 100px;
+    height: 41px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: #cc9933;
+    outline: 1px solid #cc9933;
+    cursor: pointer;
+}
+
+table_see {
+    position: relative;
+    width: 100%;
+}
+
+.img_see {
+    position: absolute;
+}
+
+.accommodation_link {
+    position: absolute;
+    margin-top: 368px;
+    margin-left: 39px;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Contacts & write to us */
+
+.box_1 {
+    display: flex;
+}
+
+.box_1:not(:last-child) {
+    margin-right: 250px;
+}
+
+/* Contacts */
+
+.contacts_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    width: 472px;
+    height: 619px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.contacts_item {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.contacts_item_1 {
+    height: 118px;
+}
+
+.contacts_item_2 {
+    height: 98px;
+}
+
+.contacts_item_3 {
+    height: 146px;
+}
+
+.contacts_item_4 {
+    height: 98px;
+}
+
+.contacts_item_5 {
+    height: 158px;
+}
+
+.contacts_text_1 {
+    margin-top: 26px;
+    margin-left: 42px;
+    font-size: 22px;
+    color: #666;
+    background-color: transparent;
+}
+
+.contacts_text_2 {
+    margin-top: 26px;
+    margin-left: 80px;
+    width: 226px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.box_phone {
+    margin-top: 26px;
+    margin-left: 33px;
+    width: 226px;
+    background-color: transparent;
+}
+
+.box_mail {
+    margin-top: 26px;
+    margin-left: 81px;
+    width: 226px;
+    background-color: transparent;
+}
+
+.contacts_text_3 {
+    background-color: transparent;
+    font-size: 16px;
+    color: #999;
+}
+
+.section-contacts-link{
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.contacts_text_4 {
+    text-align: left;
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.contacts_text_5 {
+    margin-top: 26px;
+    margin-left: 66px;
+    width: 226px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+.contacts_btn {
+    margin-top: 26px;
+    margin-left: 42px;
+    width: 214px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: #cc9933;
+    outline: 1px solid #cc9933;
+    cursor: pointer;
+}
+
+/* write to us */
+
+.write_to_us {
+    width: 100%;
+    height: 100%;
+}
+
+.write_to_us_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.write_to_us_heading{
+    margin: 0;
+}
+
+.write_to_us_input {
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    color: #999;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+}
+
+.write_to_us_item:not(:first-child) {
+    margin-top: 23px;
+}
+
+.write_to_us_btn {
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #cc9933;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.container_footer {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 50px;
+    width: 1168px;
+    height: 338px;
+    border-radius: 12px;
+    background-color: #333;
+}
+
+.footer_list_1 {
+    margin-top: 49px;
+    width: 297px;
+    height: 240px;
+    background-color: transparent;
+}
+
+.footer_list_2{
+    margin-left: 123px;
+    margin-top: 49px;
+    width: 360px;
+    height: 168px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.footer_iten_1 {
+    text-align: left;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.footer_social_list {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 49px;
+    width: 45px;
+    height: 215px;
+    background-color: transparent;
+}
+
+.footer_text {
+    margin-bottom: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.footer_link {
+    color: #cc9933;
+}
+
+.footer_text_1 {
+    margin-bottom: 40px;
+}
+
+
+.contacts_text_2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #cc9933;
+}
+
+.footer_social_item {
+    background-color: transparent;
+}
+
+.footer_nav_link{
+    width: 30px;
+    height: 30px;
+}
+
+.footer_social_icon {
+    display: block;
+    margin-bottom: 21px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-color: transparent;
+}
+
+.tripadvisor {
+    background-image: url("../img/tripadvisor.png");
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+
+.facebook {
+    background-image: url("../img/facebook.png");
+}
+
+.vk{
+    background-image: url("../img/vk.png");
+}
+
+.google {
+    background-image: url("../img/google-plus.png");
+}
+
+.footer_icon{
+    position: absolute;
+    display: block;
+    margin-top: 110px;
+    margin-left: 704px;
+    width: 258px;
+    height: 228px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-color: transparent;
+    background-image: url("../img/logo_footer.png");
+}
